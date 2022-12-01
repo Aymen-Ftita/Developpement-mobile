@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titre..."
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:id="@+id/a_titre"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/a_company"
+            android:maxLines="3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01/12/2022"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:padding="10dp"
+            android:textColor="@color/purple_700"
+            android:id="@+id/a_date"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/a_description"
+            android:maxLines="3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Competences"
+            android:padding="10dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:id="@+id/a_skills"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Durée"
+            android:id="@+id/a_duree"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black"
+            android:padding="10dp"
+
+            />
+
+
+
+
+        
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
